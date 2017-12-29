@@ -6,7 +6,7 @@ var performance = {
   controller: function PerformanceController($scope) {
     var ctrl = this;
     ctrl.name = 'Motto!';
-    // $scope.$apply(function() { console.log('APPLY FIRED!')});
+    //$scope.$apply(function() { console.log('APPLY FIRED!')});
     $scope.$applyAsync(function() { console.log('APPLY ASYNC FIRED!')});
     $scope.$evalAsync(function() { console.log('EVAL ASYNC FIRED!')});
 

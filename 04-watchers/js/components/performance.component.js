@@ -12,6 +12,7 @@ var performance = {
 
     ctrl.$onInit = function() {
       ctrl.watcherCount = Utils.getWatchers().length;
+      console.log("Watchers: ", Utils.getWatchers());
     }
 
     ctrl.add = function() {
